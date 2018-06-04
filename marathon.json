@@ -37,7 +37,7 @@
   ],
   "container": {
     "docker": {
-      "image": "bootstrap.saas.stratio.com:5000/stratio/mskafka:0.1.0-M3",
+      "image": "csfstratio/mskafka",
       "forcePullImage": true,
       "privileged": false,
       "network": "BRIDGE"
