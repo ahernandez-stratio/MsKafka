@@ -126,7 +126,7 @@
         <repository>
             <id>qa-central</id>
             <name>central</name>
-            <url>http://qa.stratio.com:8081/repository/central</url>
+            <url>http://10.120.0.28:8081/repository/central</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -134,12 +134,12 @@
         <repository>
             <id>qa-snapshots</id>
             <name>qa snapshots</name>
-            <url>http://qa.stratio.com:8081/repository/snapshots</url>
+            <url>http://10.120.0.28:8081/repository/snapshots</url>
         </repository>
         <repository>
             <id>qa-releases</id>
             <name>qa releases</name>
-            <url>http://qa.stratio.com:8081/repository/releases</url>
+            <url>http://10.120.0.28:8081/repository/releases</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
