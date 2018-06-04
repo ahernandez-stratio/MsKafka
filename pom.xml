@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.stratio.architecture</groupId>
         <artifactId>microservices-parent</artifactId>
-        <version>0.1.0</version>
+        <version>0.2.0-RC1</version>
         <relativePath/>
     </parent>
 
@@ -122,4 +122,27 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>qa-central</id>
+            <name>central</name>
+            <url>http://qa.stratio.com:8081/repository/central</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>qa-snapshots</id>
+            <name>qa snapshots</name>
+            <url>http://qa.stratio.com:8081/repository/snapshots</url>
+        </repository>
+        <repository>
+            <id>qa-releases</id>
+            <name>qa releases</name>
+            <url>http://qa.stratio.com:8081/repository/releases</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
